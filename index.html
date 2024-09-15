@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Carteira de Trabalho</title>
+</head>
+<body>
+    <main>
+        <div class="passo" id="passo-12">
+            <img src="img/casaDestruida.jpg" alt="casaDestruida">
+            <p>Fim! Você é foi muito medroso para continuar a aventura.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="img/clt-passo0.png" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, você descobre uma carta antiga sobre uma relíquia deixada pelos antepassados em um lugar escondido na floresta, a "Carteira de Trabalho!", então por curiosidade, resolve se aventurar atrás da grande relíquia.</p>
+            <button class="btn-proximo" data-proximo="1">Xique-Xique BA</button>
+            <button class="btn-proximo" data-proximo="2">Brasília</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Xique-Xique BA, conhecendo alguns baianos no caminho.</p>
+            <button class="btn-proximo" data-proximo="3">Perguntar sobre a carteira de trabalho para os baianos</button>
+            <button class="btn-proximo" data-proximo="12">Desistir e voltar para o cativeiro</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Em brasília, você vê um castelo branco e ríspido geometricamente, e fica curioso com o que seria.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar castelo estranho</button>
+            <button class="btn-proximo" data-proximo="12">voltar para o cativeiro</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Os baianos ao ouvirem sobre a relíquia, ficam espantados e agitados. Dizem que a carteira está na posse de um grande homem barbudo, nomeando-o como "Zé picanha", que está no meio de uma grande floresta lá perto.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir o caminho até Zé Picanha</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/lulaRaiva.png" alt="purgatório">
+            <p>Ao caminhar, o velho com sua voz rouca lhe diz: "Este caminho é apenas para quem é digno, se converta ao Zé Picanha ou morra".</p>
+            <button class="btn-proximo" data-proximo="6">Se converter ao Zé Picanha</button>
+            <button class="btn-proximo" data-proximo="8">Não se converter ao Zé Picanha</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/lula.png" alt="velho no castelo">
+            <p>Sentado em um trono, você vê um velho barbudo elegante. Talvez você tenha ouvido falar dele em lendas...</p>
+            <button class="btn-proximo" data-proximo="4">Chegar mais perto</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/trabalhador.png" height="460px" width="800px" alt="velho no castelo">
+            <p>Fim! Zé Picanha te converte em um de seus ajudantes. Infelizmente terá que trabalhar 10000 dias e 10000 noites para pagar a dívida de incomodá-lo.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/baianos.png" alt="baiano">
+            <p>Fim! Ao olhar mais de perto, os baianos te empurram para o buraco que estava cheio de restos mortais de outros exploradores que buscavam a carteira de trabalho. Os baianos eram guardiões da carteira...</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/Desmaterializacao.jpg" alt="pessoa desmaterializada">
+            <p>Fim! Ao negar se converter ao Zé Picanha, você tenta fugir do castelo, mas é desmaterializado da existência após seus primeiros 5 passos.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Ao caminhar pela floresta você encontra um grande buraco no chão, que por acaso, estava com um cheiro fétido. Então decide olhar mais de perto.</p>
+            <button class="btn-proximo" data-proximo="7">Olhar para dentro do buraco</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
